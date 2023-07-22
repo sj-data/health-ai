@@ -1,0 +1,95 @@
+Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
+Breast Cancer,Engage in regular physical activity,Tamoxifen,1a,Positive,Engaging in physical activity can complement the effects of Tamoxifen in reducing cancer recurrence and improving overall health.
+Breast Cancer,Engage in regular physical activity,Letrozole,1b,Neutral,Engaging in physical activity does not significantly interact with Letrozole. It is safe to continue with this preventive routine.
+Breast Cancer,Engage in regular physical activity,Anastrozole,1c,Negative,Engaging in physical activity may negatively interact with Anastrozole. Consult your healthcare provider to discuss potential impacts.
+Breast Cancer,Engage in regular physical activity,Exemestane,1d,Positive,Engaging in physical activity can complement the effects of Exemestane in reducing cancer recurrence and improving overall health.
+Breast Cancer,Maintain a healthy weight,Tamoxifen,2a,Positive,Maintaining a healthy weight can complement the effects of Tamoxifen in reducing cancer recurrence and improving overall health.
+Breast Cancer,Maintain a healthy weight,Letrozole,2b,Neutral,Maintaining a healthy weight does not significantly interact with Letrozole. It is safe to continue with this preventive routine.
+Breast Cancer,Maintain a healthy weight,Anastrozole,2c,Negative,Maintaining a healthy weight may negatively interact with Anastrozole. Consult your healthcare provider to discuss potential impacts.
+Breast Cancer,Maintain a healthy weight,Exemestane,2d,Positive,Maintaining a healthy weight can complement the effects of Exemestane in reducing cancer recurrence and improving overall health.
+Breast Cancer,Limit alcohol consumption,Tamoxifen,3a,Neutral,Limiting alcohol consumption does not significantly interact with Tamoxifen. It is safe to continue with this preventive routine.
+Breast Cancer,Limit alcohol consumption,Letrozole,3b,Negative,Limiting alcohol consumption may negatively interact with Letrozole. Consult your healthcare provider to discuss potential impacts.
+Breast Cancer,Limit alcohol consumption,Anastrozole,3c,Neutral,Limiting alcohol consumption does not significantly interact with Anastrozole. It is safe to continue with this preventive routine.
+Breast Cancer,Limit alcohol consumption,Exemestane,3d,Neutral,Limiting alcohol consumption does not significantly interact with Exemestane. It is safe to continue with this preventive routine.
+Breast Cancer,Eat a balanced diet with fruits and vegetables,Tamoxifen,4a,Positive,A balanced diet with fruits and vegetables can complement the effects of Tamoxifen in reducing cancer recurrence and improving health.
+Breast Cancer,Eat a balanced diet with fruits and vegetables,Letrozole,4b,Neutral,A balanced diet with fruits and vegetables does not significantly interact with Letrozole. It is safe to continue with this routine.
+Breast Cancer,Eat a balanced diet with fruits and vegetables,Anastrozole,4c,Neutral,A balanced diet with fruits and vegetables does not significantly interact with Anastrozole. It is safe to continue with this routine.
+Breast Cancer,Eat a balanced diet with fruits and vegetables,Exemestane,4d,Positive,A balanced diet with fruits and vegetables can complement the effects of Exemestane in reducing cancer recurrence and improving health.
+,,,,,
+Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
+Influenza,Get vaccinated yearly,Oseltamivir,1a,Positive,Yearly vaccination can complement the effects of Oseltamivir in reducing the severity and duration of influenza symptoms and preventing complications.
+Influenza,Get vaccinated yearly,Zanamivir,1b,Neutral,Yearly vaccination does not significantly interact with Zanamivir. It is safe to continue with this preventive routine.
+Influenza,Get vaccinated yearly,Baloxavir,1c,Positive,Yearly vaccination can complement the effects of Baloxavir in reducing the severity and duration of influenza symptoms and preventing complications.
+Influenza,Get vaccinated yearly,Peramivir,1d,Positive,Yearly vaccination can complement the effects of Peramivir in reducing the severity and duration of influenza symptoms and preventing complications.
+Influenza,Wash hands frequently,Oseltamivir,2a,Neutral,Washing hands frequently does not significantly interact with Oseltamivir. It is safe to continue with this preventive routine.
+Influenza,Wash hands frequently,Zanamivir,2b,Neutral,Washing hands frequently does not significantly interact with Zanamivir. It is safe to continue with this preventive routine.
+Influenza,Wash hands frequently,Baloxavir,2c,Neutral,Washing hands frequently does not significantly interact with Baloxavir. It is safe to continue with this preventive routine.
+Influenza,Wash hands frequently,Peramivir,2d,Neutral,Washing hands frequently does not significantly interact with Peramivir. It is safe to continue with this preventive routine.
+Influenza,Cover mouth and nose when coughing/sneezing,Oseltamivir,3a,Positive,Covering mouth and nose when coughing/sneezing can complement the effects of Oseltamivir in reducing the spread of influenza and preventing further transmission.
+Influenza,Cover mouth and nose when coughing/sneezing,Zanamivir,3b,Positive,Covering mouth and nose when coughing/sneezing can complement the effects of Zanamivir in reducing the spread of influenza and preventing further transmission.
+Influenza,Cover mouth and nose when coughing/sneezing,Baloxavir,3c,Positive,Covering mouth and nose when coughing/sneezing can complement the effects of Baloxavir in reducing the spread of influenza and preventing further transmission.
+Influenza,Cover mouth and nose when coughing/sneezing,Peramivir,3d,Positive,Covering mouth and nose when coughing/sneezing can complement the effects of Peramivir in reducing the spread of influenza and preventing further transmission.
+Influenza,Avoid close contact with sick individuals,Oseltamivir,4a,Neutral,Avoiding close contact with sick individuals does not significantly interact with Oseltamivir. It is safe to continue with this preventive routine.
+Influenza,Avoid close contact with sick individuals,Zanamivir,4b,Neutral,Avoiding close contact with sick individuals does not significantly interact with Zanamivir. It is safe to continue with this preventive routine.
+Influenza,Avoid close contact with sick individuals,Baloxavir,4c,Neutral,Avoiding close contact with sick individuals does not significantly interact with Baloxavir. It is safe to continue with this preventive routine.
+Influenza,Avoid close contact with sick individuals,Peramivir,4d,Neutral,Avoiding close contact with sick individuals does not significantly interact with Peramivir. It is safe to continue with this preventive routine.
+,,,,,
+Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
+Diabetes,Maintain a healthy diet with low sugar intake,Metformin,1a,Positive,Maintaining a healthy diet with low sugar intake can complement the effects of Metformin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Maintain a healthy diet with low sugar intake,Insulin,1b,Neutral,Maintaining a healthy diet with low sugar intake does not significantly interact with Insulin. It is safe to continue with this preventive routine.
+Diabetes,Maintain a healthy diet with low sugar intake,Glipizide,1c,Negative,Maintaining a healthy diet with low sugar intake may negatively interact with Glipizide. Consult your healthcare provider to discuss potential impacts.
+Diabetes,Maintain a healthy diet with low sugar intake,Sitagliptin,1d,Neutral,Maintaining a healthy diet with low sugar intake does not significantly interact with Sitagliptin. It is safe to continue with this preventive routine.
+Diabetes,Engage in regular physical activity,Metformin,2a,Positive,Engaging in regular physical activity can complement the effects of Metformin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Engage in regular physical activity,Insulin,2b,Positive,Engaging in regular physical activity can complement the effects of Insulin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Engage in regular physical activity,Glipizide,2c,Positive,Engaging in regular physical activity can complement the effects of Glipizide in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Engage in regular physical activity,Sitagliptin,2d,Positive,Engaging in regular physical activity can complement the effects of Sitagliptin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Monitor blood glucose levels regularly,Metformin,3a,Neutral,Monitoring blood glucose levels regularly does not significantly interact with Metformin. It is safe to continue with this preventive routine.
+Diabetes,Monitor blood glucose levels regularly,Insulin,3b,Neutral,Monitoring blood glucose levels regularly does not significantly interact with Insulin. It is safe to continue with this preventive routine.
+Diabetes,Monitor blood glucose levels regularly,Glipizide,3c,Positive,Monitoring blood glucose levels regularly can complement the effects of Glipizide in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Monitor blood glucose levels regularly,Sitagliptin,3d,Neutral,Monitoring blood glucose levels regularly does not significantly interact with Sitagliptin. It is safe to continue with this preventive routine.
+Diabetes,Take medications as prescribed,Metformin,4a,Positive,Taking medications as prescribed can complement the effects of Metformin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Take medications as prescribed,Insulin,4b,Positive,Taking medications as prescribed can complement the effects of Insulin in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Take medications as prescribed,Glipizide,4c,Positive,Taking medications as prescribed can complement the effects of Glipizide in managing blood glucose levels and improving insulin sensitivity.
+Diabetes,Take medications as prescribed,Sitagliptin,4d,Positive,Taking medications as prescribed can complement the effects of Sitagliptin in managing blood glucose levels and improving insulin sensitivity.
+,,,,,
+Preventive Routines and Medications Dataset for Hypertension with Interactions and Classifications:,,,,,
+,,,,,
+,,,,,
+Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
+Hypertension,Engage in regular physical activity,Lisinopril,1a,Positive,Engaging in physical activity can complement the effects of Lisinopril in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Engage in regular physical activity,Amlodipine,1b,Positive,Engaging in physical activity can complement the effects of Amlodipine in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Engage in regular physical activity,Metoprolol,1c,Neutral,Engaging in physical activity does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Hypertension,Engage in regular physical activity,Hydrochlorothiazide,1d,Neutral,Engaging in physical activity does not significantly interact with Hydrochlorothiazide. It is safe to continue with this preventive routine.
+Hypertension,Follow a low-sodium diet,Lisinopril,2a,Positive,Following a low-sodium diet can complement the effects of Lisinopril in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Follow a low-sodium diet,Amlodipine,2b,Neutral,Following a low-sodium diet does not significantly interact with Amlodipine. It is safe to continue with this preventive routine.
+Hypertension,Follow a low-sodium diet,Metoprolol,2c,Neutral,Following a low-sodium diet does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Hypertension,Follow a low-sodium diet,Hydrochlorothiazide,2d,Neutral,Following a low-sodium diet does not significantly interact with Hydrochlorothiazide. It is safe to continue with this preventive routine.
+Hypertension,Maintain a healthy weight,Lisinopril,3a,Positive,Maintaining a healthy weight can complement the effects of Lisinopril in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Maintain a healthy weight,Amlodipine,3b,Positive,Maintaining a healthy weight can complement the effects of Amlodipine in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Maintain a healthy weight,Metoprolol,3c,Neutral,Maintaining a healthy weight does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Hypertension,Maintain a healthy weight,Hydrochlorothiazide,3d,Neutral,Maintaining a healthy weight does not significantly interact with Hydrochlorothiazide. It is safe to continue with this preventive routine.
+Hypertension,Reduce sodium intake to lower blood pressure,Lisinopril,4a,Positive,Reducing sodium intake can complement the effects of Lisinopril in managing blood pressure and improving overall cardiovascular health.
+Hypertension,Reduce sodium intake to lower blood pressure,Amlodipine,4b,Neutral,Reducing sodium intake does not significantly interact with Amlodipine. It is safe to continue with this preventive routine.
+Hypertension,Reduce sodium intake to lower blood pressure,Metoprolol,4c,Neutral,Reducing sodium intake does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Hypertension,Reduce sodium intake to lower blood pressure,Hydrochlorothiazide,4d,Positive,Reducing sodium intake can complement the effects of Hydrochlorothiazide in managing blood pressure and improving overall cardiovascular health.
+,,,,,
+Preventive Routines and Medications Dataset for Heart Disease with Interactions and Classifications:,,,,,
+,,,,,
+,,,,,
+Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
+Heart Disease,Engage in regular physical activity,Aspirin,1a,Positive,Engaging in physical activity can complement the effects of Aspirin in reducing the risk of blood clot formation and improving overall cardiovascular health.
+Heart Disease,Engage in regular physical activity,Clopidogrel,1b,Positive,Engaging in physical activity can complement the effects of Clopidogrel in reducing the risk of blood clot formation and improving cardiovascular health.
+Heart Disease,Engage in regular physical activity,Atorvastatin,1c,Positive,Engaging in physical activity can complement the effects of Atorvastatin in managing cholesterol levels and improving overall cardiovascular health.
+Heart Disease,Engage in regular physical activity,Metoprolol,1d,Neutral,Engaging in physical activity does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Heart Disease,Follow a heart-healthy diet,Aspirin,2a,Neutral,Following a heart-healthy diet does not significantly interact with Aspirin. It is safe to continue with this preventive routine.
+Heart Disease,Follow a heart-healthy diet,Clopidogrel,2b,Neutral,Following a heart-healthy diet does not significantly interact with Clopidogrel. It is safe to continue with this preventive routine.
+Heart Disease,Follow a heart-healthy diet,Atorvastatin,2c,Neutral,Following a heart-healthy diet does not significantly interact with Atorvastatin. It is safe to continue with this preventive routine.
+Heart Disease,Follow a heart-healthy diet,Metoprolol,2d,Neutral,Following a heart-healthy diet does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
+Heart Disease,Take prescribed medications as directed,Aspirin,3a,Positive,Taking Aspirin as directed is important in reducing the risk of blood clot formation and improving overall cardiovascular health.
+Heart Disease,Take prescribed medications as directed,Clopidogrel,3b,Positive,Taking Clopidogrel as directed is important in reducing the risk of blood clot formation and improving cardiovascular health.
+Heart Disease,Take prescribed medications as directed,Atorvastatin,3c,Positive,Taking Atorvastatin as directed is important in managing cholesterol levels and improving overall cardiovascular health.
+Heart Disease,Take prescribed medications as directed,Metoprolol,3d,Neutral,Taking Metoprolol as directed is important for managing heart health. It is safe to continue with this preventive routine.
+Heart Disease,Limit alcohol consumption,Aspirin,4a,Neutral,Limiting alcohol consumption does not significantly interact with Aspirin. It is safe to continue with this preventive routine.
+Heart Disease,Limit alcohol consumption,Clopidogrel,4b,Neutral,Limiting alcohol consumption does not significantly interact with Clopidogrel. It is safe to continue with this preventive routine.
+Heart Disease,Limit alcohol consumption,Atorvastatin,4c,Neutral,Limiting alcohol consumption does not significantly interact with Atorvastatin. It is safe to continue with this preventive routine.
+Heart Disease,Limit alcohol consumption,Metoprolol,4d,Neutral,Limiting alcohol consumption does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
