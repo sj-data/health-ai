@@ -22,17 +22,10 @@ Our Healthcare Bot is a sophisticated AI model that understands a wide range of 
 - **User-Friendly Interface**: We've designed our bot to be as user-friendly as possible. Just type in your question, and our bot will do the rest!
 - **Quick and Accurate**: Our bot uses state-of-the-art AI models to provide quick and accurate responses to your questions.
 
-## 🔧 Installation
-
-Clone this repository and navigate to the project directory. Install the required dependencies using pip:
-
-pip install -r requirements.txt
 
 ## 🚀 Usage
 
-streamlit run app.py
-
-You can then interact with the bot by typing your questions into the text box.
+visit https://health-ai.streamlit.app
 
 ## 👩‍💻 Contribution
 We welcome contributions to this project! Whether you want to add new features, fix bugs, or improve documentation, your help is appreciated. Please see our contribution guidelines for more information.
