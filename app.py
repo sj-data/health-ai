@@ -1,23 +1,21 @@
 import streamlit as st
-from huggingface_hub import hf_hub_download
-from llama_cpp import Llama
+import openai
+from langchain.document_loaders import CSVLoader
+from langchain.indexes import VectorstoreIndexCreator
+from langchain.chains import RetrievalQA
+from langchain.llms import OpenAI as LangChainOpenAI
+import os
 
-hf_hub_download(repo_id="LLukas22/gpt4all-lora-quantized-ggjt", filename="ggjt-model.bin", local_dir=".")
-llm = Llama(model_path="./ggjt-model.bin")
+os.environ["OPENAI_API_KEY"] = st.secrets["OPEN_API_KEY"]
 
-ins = '''### Instruction:
-{}
-### Response:
-'''
-
-fixed_instruction = "You are a healthcare bot designed to give advice for the prevention and treatment of various illnesses."
+loader = CSVLoader(file_path='./COMPLETE_DATASET_5_DISEASES 2.csv')
+index_creator = VectorstoreIndexCreator()
+docsearch = index_creator.from_loaders([loader])
+chain = RetrievalQA.from_chain_type(llm=LangChainOpenAI(), chain_type="stuff", retriever=docsearch.vectorstore.as_retriever(), input_key="question")
 
 def respond(message):
-    full_instruction = fixed_instruction + " " + message
-    formatted_instruction = ins.format(full_instruction)
-    bot_message = llm(formatted_instruction, stop=['### Instruction:', '### End'])
-    bot_message = bot_message['choices'][0]['text']
-    return bot_message
+    response = chain({"question": message})
+    return response['result']
 
 st.title("Healthcare Bot")
 
@@ -43,3 +41,4 @@ if prompt := st.chat_input("What is your question?"):
         st.markdown(response)
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
+
