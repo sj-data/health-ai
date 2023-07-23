@@ -15,8 +15,6 @@ Breast Cancer,Eat a balanced diet with fruits and vegetables,Tamoxifen,4a,Positi
 Breast Cancer,Eat a balanced diet with fruits and vegetables,Letrozole,4b,Neutral,A balanced diet with fruits and vegetables does not significantly interact with Letrozole. It is safe to continue with this routine.
 Breast Cancer,Eat a balanced diet with fruits and vegetables,Anastrozole,4c,Neutral,A balanced diet with fruits and vegetables does not significantly interact with Anastrozole. It is safe to continue with this routine.
 Breast Cancer,Eat a balanced diet with fruits and vegetables,Exemestane,4d,Positive,A balanced diet with fruits and vegetables can complement the effects of Exemestane in reducing cancer recurrence and improving health.
-,,,,,
-Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
 Influenza,Get vaccinated yearly,Oseltamivir,1a,Positive,Yearly vaccination can complement the effects of Oseltamivir in reducing the severity and duration of influenza symptoms and preventing complications.
 Influenza,Get vaccinated yearly,Zanamivir,1b,Neutral,Yearly vaccination does not significantly interact with Zanamivir. It is safe to continue with this preventive routine.
 Influenza,Get vaccinated yearly,Baloxavir,1c,Positive,Yearly vaccination can complement the effects of Baloxavir in reducing the severity and duration of influenza symptoms and preventing complications.
@@ -33,8 +31,6 @@ Influenza,Avoid close contact with sick individuals,Oseltamivir,4a,Neutral,Avoid
 Influenza,Avoid close contact with sick individuals,Zanamivir,4b,Neutral,Avoiding close contact with sick individuals does not significantly interact with Zanamivir. It is safe to continue with this preventive routine.
 Influenza,Avoid close contact with sick individuals,Baloxavir,4c,Neutral,Avoiding close contact with sick individuals does not significantly interact with Baloxavir. It is safe to continue with this preventive routine.
 Influenza,Avoid close contact with sick individuals,Peramivir,4d,Neutral,Avoiding close contact with sick individuals does not significantly interact with Peramivir. It is safe to continue with this preventive routine.
-,,,,,
-Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
 Diabetes,Maintain a healthy diet with low sugar intake,Metformin,1a,Positive,Maintaining a healthy diet with low sugar intake can complement the effects of Metformin in managing blood glucose levels and improving insulin sensitivity.
 Diabetes,Maintain a healthy diet with low sugar intake,Insulin,1b,Neutral,Maintaining a healthy diet with low sugar intake does not significantly interact with Insulin. It is safe to continue with this preventive routine.
 Diabetes,Maintain a healthy diet with low sugar intake,Glipizide,1c,Negative,Maintaining a healthy diet with low sugar intake may negatively interact with Glipizide. Consult your healthcare provider to discuss potential impacts.
@@ -51,11 +47,6 @@ Diabetes,Take medications as prescribed,Metformin,4a,Positive,Taking medications
 Diabetes,Take medications as prescribed,Insulin,4b,Positive,Taking medications as prescribed can complement the effects of Insulin in managing blood glucose levels and improving insulin sensitivity.
 Diabetes,Take medications as prescribed,Glipizide,4c,Positive,Taking medications as prescribed can complement the effects of Glipizide in managing blood glucose levels and improving insulin sensitivity.
 Diabetes,Take medications as prescribed,Sitagliptin,4d,Positive,Taking medications as prescribed can complement the effects of Sitagliptin in managing blood glucose levels and improving insulin sensitivity.
-,,,,,
-Preventive Routines and Medications Dataset for Hypertension with Interactions and Classifications:,,,,,
-,,,,,
-,,,,,
-Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
 Hypertension,Engage in regular physical activity,Lisinopril,1a,Positive,Engaging in physical activity can complement the effects of Lisinopril in managing blood pressure and improving overall cardiovascular health.
 Hypertension,Engage in regular physical activity,Amlodipine,1b,Positive,Engaging in physical activity can complement the effects of Amlodipine in managing blood pressure and improving overall cardiovascular health.
 Hypertension,Engage in regular physical activity,Metoprolol,1c,Neutral,Engaging in physical activity does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
@@ -72,11 +63,6 @@ Hypertension,Reduce sodium intake to lower blood pressure,Lisinopril,4a,Positive
 Hypertension,Reduce sodium intake to lower blood pressure,Amlodipine,4b,Neutral,Reducing sodium intake does not significantly interact with Amlodipine. It is safe to continue with this preventive routine.
 Hypertension,Reduce sodium intake to lower blood pressure,Metoprolol,4c,Neutral,Reducing sodium intake does not significantly interact with Metoprolol. It is safe to continue with this preventive routine.
 Hypertension,Reduce sodium intake to lower blood pressure,Hydrochlorothiazide,4d,Positive,Reducing sodium intake can complement the effects of Hydrochlorothiazide in managing blood pressure and improving overall cardiovascular health.
-,,,,,
-Preventive Routines and Medications Dataset for Heart Disease with Interactions and Classifications:,,,,,
-,,,,,
-,,,,,
-Disease,Preventive Routine,Medication,Interaction,Classification,Elaboration
 Heart Disease,Engage in regular physical activity,Aspirin,1a,Positive,Engaging in physical activity can complement the effects of Aspirin in reducing the risk of blood clot formation and improving overall cardiovascular health.
 Heart Disease,Engage in regular physical activity,Clopidogrel,1b,Positive,Engaging in physical activity can complement the effects of Clopidogrel in reducing the risk of blood clot formation and improving cardiovascular health.
 Heart Disease,Engage in regular physical activity,Atorvastatin,1c,Positive,Engaging in physical activity can complement the effects of Atorvastatin in managing cholesterol levels and improving overall cardiovascular health.
