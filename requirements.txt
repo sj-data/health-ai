@@ -3,3 +3,4 @@ chromadb
 langchain
 tiktoken
 openai
+google-search-results
