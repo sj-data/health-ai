@@ -6,6 +6,7 @@ from langchain.utilities import SerpAPIWrapper
 from langchain.document_loaders import CSVLoader
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.chains import RetrievalQA
+import pandas as pd
 import os
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPEN_API_KEY"]
@@ -14,6 +15,7 @@ os.environ["SERPAPI_API_KEY"] = st.secrets["SERPAPI_API_KEY"]
 # Tool definition
 search = SerpAPIWrapper()
 
+df = pd.read_csv('COMPLETE_DATASET_5_DISEASES 2.csv')
 loader = CSVLoader(file_path='COMPLETE_DATASET_5_DISEASES 2.csv')
 index_creator = VectorstoreIndexCreator()
 docsearch = index_creator.from_loaders([loader])
@@ -56,28 +58,24 @@ agent_chain = AgentExecutor.from_agent_and_tools(
 )
 # chat with the agent
 
+medlist=list(df['Medication'].unique())
+routinelist=list(df['Preventive Routine'].unique())
+diseaselist=list(df['Disease'].unique())
+
+
 st.title("Healthcare Bot")
 
 with st.container():
 
     medicine = st.multiselect(
         'Enter any medicines you are currently taking',
-        ['Amlodipine', 'Anastrozole', 'Aspirin', 'Atorvastatin', 'Baloxavir', 'Clopidogrel', 'Exemestane', 'Glipizide',
-         'Hydrochlorothiazide', 'Insulin', 'Letrozole', 'Lisinopril', 'Metformin', 'Metoprolol', 'Oseltamivir',
-         'Peramivir', 'Sitagliptin', 'Tamoxifen', 'Zanamivir'],
+        medlist,
     )
 
-    routine = st.multiselect(
-        'What routines do you engage in?',
-        ['Avoid close contact with sick individuals', 'Cover mouth and nose when coughing/sneezing',
-         'Eat a balanced diet with fruits and vegetables', 'Engage in regular physical activity',
-         'Follow a heart-healthy diet', 'Follow a low-sodium diet', 'Get vaccinated yearly',
-         'Limit alcohol consumption', 'Maintain a healthy diet with low sugar intake',
-         'Maintain a healthy weight', 'Monitor blood glucose levels regularly',
-         'Preventive Routine', 'Reduce sodium intake to lower blood pressure',
-         'Take medications as prescribed', 'Take prescribed medications as directed', 'Wash hands frequently'],
+    illness = st.multiselect(
+        'What illness have you been diagnosed with?',
+        diseaselist
     )
-
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -96,7 +94,7 @@ with st.container():
         st.session_state.messages.append({"role": "user", "content": question})
 
         # Combine the user's question, medicine, and routine into a single string
-        combined_input = f"Question: {question}\nMedicine: {medicine}\nRoutine: {routine}"
+        combined_input = f"Question: {question}\nMedicine: {medicine}\nIllness: {illness}"
 
         # Use your agent to generate a response, passing in the combined input.
         response = agent_chain.run({"input": combined_input})
