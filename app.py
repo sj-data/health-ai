@@ -23,10 +23,10 @@ tools = [
     Tool(
         name="Search",
         func=search.run,
-        description="useful for when you cant find the anwer inside the csv file, use it only as a last resort"
+        description="useful for when you cant find the answer inside the csv file, use it only as a last resort"
     ),
     Tool(
-        name = "DocSearch",
+        name="DocSearch",
         func=csvSearch.run,
         description="If the user asks a health care question, this tool will search the csv file for the answer"
     )
@@ -59,8 +59,24 @@ agent_chain = AgentExecutor.from_agent_and_tools(
 st.title("Healthcare Bot")
 
 with st.container():
-    medicine = st.text_input("Enter any medicines you're currently taking")
-    routine = st.text_input("Describe your current daily routine")
+
+    medicine = st.multiselect(
+        'Enter any medicines you are currently taking',
+        ['Amlodipine', 'Anastrozole', 'Aspirin', 'Atorvastatin', 'Baloxavir', 'Clopidogrel', 'Exemestane', 'Glipizide',
+         'Hydrochlorothiazide', 'Insulin', 'Letrozole', 'Lisinopril', 'Metformin', 'Metoprolol', 'Oseltamivir',
+         'Peramivir', 'Sitagliptin', 'Tamoxifen', 'Zanamivir'],
+    )
+
+    routine = st.multiselect(
+        'What routines do you engage in?',
+        ['Avoid close contact with sick individuals', 'Cover mouth and nose when coughing/sneezing',
+         'Eat a balanced diet with fruits and vegetables', 'Engage in regular physical activity',
+         'Follow a heart-healthy diet', 'Follow a low-sodium diet', 'Get vaccinated yearly',
+         'Limit alcohol consumption', 'Maintain a healthy diet with low sugar intake',
+         'Maintain a healthy weight', 'Monitor blood glucose levels regularly',
+         'Preventive Routine', 'Reduce sodium intake to lower blood pressure',
+         'Take medications as prescribed', 'Take prescribed medications as directed', 'Wash hands frequently'],
+    )
 
 # Initialize chat history
 if "messages" not in st.session_state:
