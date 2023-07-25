@@ -4,3 +4,4 @@ langchain
 tiktoken
 openai
 google-search-results
+pysqlite3-binary
